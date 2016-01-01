@@ -1,0 +1,199 @@
+/**
+ * # Markdown
+ *
+ * Formatting of rendered Markdown.
+ *
+ * No styleguide reference.
+ */
+
+.content {
+  overflow: hidden;
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+.content > *:first-child {
+  margin-top: 0 !important;
+}
+
+.content > *:last-child {
+  margin-bottom: 0 !important;
+}
+
+.content p,
+.content blockquote,
+.content ul,
+.content ol,
+.content dl,
+.content table,
+.content pre {
+  margin: 1rem 0;
+}
+
+/**
+ * ## Headings
+ *
+ * Markup:
+  <h1>Heading Level 1</h1>
+  <h2>Heading Level 2</h2>
+  <h3>Heading Level 3</h3>
+  <h4>Heading Level 4</h4>
+  <h5>Heading Level 5</h5>
+  <h6>Heading Level 6</h6>
+ *
+ * No styleguide reference.
+ */
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  position: relative;
+  margin: 1em 0 1rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+/**
+ * ## Lists
+ *
+ * No styleguide reference.
+ */
+
+.content ul,
+.content ol {
+  padding-left: 2rem;
+}
+
+.content ul ul,
+.content ul ol,
+.content ol ol,
+.content ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/**
+ * ## Code
+ *
+ * No styleguide reference.
+ */
+
+.content code {
+  padding: .2rem;
+  font-size: 85%;
+  font-family: Menlo, Consolas, monospace;
+  white-space: nowrap;
+  background-color: rgba(0,0,0,.05);
+  border-radius: .2rem;
+}
+
+.content pre {
+  word-wrap: normal;
+}
+
+.content pre > code {
+  padding: 0;
+  margin: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+/**
+ * ## Blockquotes
+ *
+ * No styleguide reference.
+ */
+
+.content blockquote > :first-child {
+  margin-top: 0;
+}
+
+.content blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/**
+ * ## Tables
+ *
+ * No styleguide reference.
+ */
+
+.content table {
+  width: 100%;
+  overflow: auto;
+}
+
+.content table td {
+  padding: .75rem;
+}
+
+.content table th {
+  padding: .35rem .75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.content table th,
+.content table td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.content table th:first-child,
+.content table td:first-child {
+  padding-left: 0;
+}
+
+.content table th:last-child,
+.content table td:last-child {
+  padding-right: 0;
+}
+
+.content table tr:last-child td {
+  border-bottom: 1px solid #eee;
+}
+
+/**
+ * ## Images
+ *
+ * No styleguide reference.
+ */
+
+.content img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/**
+ * ## Anchored Headings
+ *
+ * Markup:
+  <h2 id="unique-link"><a class="anchor" href="#unique-link">#</a>Heading</h2>
+ *
+ * No styleguide reference.
+ */
+
+.content h1 .anchor,
+.content h2 .anchor,
+.content h3 .anchor,
+.content h4 .anchor,
+.content h5 .anchor,
+.content h6 .anchor {
+  display: inline-block;
+  opacity: 0;
+  width: 2rem;
+  text-align: center;
+  margin-left: -2rem;
+}
+
+.content h1:hover .anchor,
+.content h2:hover .anchor,
+.content h3:hover .anchor,
+.content h4:hover .anchor,
+.content h5:hover .anchor,
+.content h6:hover .anchor {
+  opacity: 1;
+}

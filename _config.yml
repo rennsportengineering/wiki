@@ -1,0 +1,26 @@
+title:        RennSport Engineering wiki
+baseurl: /wiki
+
+# GitHub Pages
+# None of these can actually be changed
+safe:     true
+lsi:      false
+highlighter: pygments
+
+# Formatting
+markdown: redcarpet
+redcarpet:
+  extensions: [
+    "autolink"
+  , "tables"
+  , "strikethrough"
+  , "with_toc_data"
+  , "fenced_code_blocks"
+  , "no_intra_emphasis"
+  ]
+
+# Permalinks
+permalink: pretty
+
+# File inclusion (these would otherwise be hidden)
+include: ["_assets", "_search.json"]

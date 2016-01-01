@@ -1,0 +1,50 @@
+/**
+ * # Float View
+ *
+ * Extends the Markdown formatting component with a 2-column layout, where the
+ * left column is used for text and the right column for code and commenting.
+ *
+ * Markup:
+  <div class="float-view"></div>
+ *
+ * No styleguide reference.
+ */
+
+.content > h1,
+.content > h2,
+.content > h3,
+.content > h4,
+.content > h5,
+.content > h6,
+.content > p,
+.content > table,
+.content > ul,
+.content > ol,
+.content > dl,
+.content > aside {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.content > ul,
+.content > ol {
+  padding-left: 4rem;
+}
+
+.content > table {
+  /* Allow padding to be added */
+  border-collapse: separate;
+}
+
+.content blockquote,
+.content .highlight {
+  float: right;
+  clear: right;
+  width: 50%;
+  padding: 1.5rem 2rem;
+}
+
+.content blockquote > p,
+.content .highlight > pre {
+  margin: 0;
+}
