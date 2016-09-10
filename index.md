@@ -3,6 +3,6 @@ title: VW 1303 and Porsche 924, 944, 928 and 968 parts compatibility wiki
 layout: page
 ---
 
-# VW 1303 and Porsche 924, 944, 928 and 968 parts compatibility wiki
+# VW 1303, Golf Mk1, Porsche 924, 944, 928 and 968 parts compatibility wiki
 
-This wiki uses a modified version of the [picnic](https://github.com/kasperisager/picnic) theme for Jekyll.
+This wiki contains information about original VW and Porsche as well as aftermarket parts for the VW 1303, Golf Mk1, Porsche 924, 944, 928 and 968 including their original application as well as their compatibility with other models.

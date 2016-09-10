@@ -1,26 +1,19 @@
-title:        RennSport Engineering wiki
+title: RennSport Engineering wiki
 baseurl: /wiki
+
+layouts_dir:  _picnic/_layouts
+includes_dir: _picnic/_includes
 
 # GitHub Pages
 # None of these can actually be changed
-safe:     true
-lsi:      false
-highlighter: pygments
+safe: true
+lsi: false
+highlighter: rouge
 
 # Formatting
-markdown: redcarpet
-redcarpet:
-  extensions: [
-    "autolink"
-  , "tables"
-  , "strikethrough"
-  , "with_toc_data"
-  , "fenced_code_blocks"
-  , "no_intra_emphasis"
-  ]
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Permalinks
 permalink: pretty
-
-# File inclusion (these would otherwise be hidden)
-include: ["_assets", "_search.json"]
