@@ -6,20 +6,55 @@ layout: page
 # Rear brakes
 
 - 944 < 1986 (steel trailing arms)
-  - Disc: 944.352.041.02
-  - Caliper: 
+  - Disc:
+    - Type: vented
+    - Dimensions: 289x20mm
+    - Height: 71mm
+    - Weight: 5,7 kg
+    - Part number: 944 352 041 02
+  - Caliper:
+    - Type: single piston floating caliper
+    - Piston(s): 38mm
+    - Part numbers:
+      - < 1984: 477 615 109 (L), 477 615 110 (R)
+      - &gt;= 1984: 944 351 429 00 (L), 944 351 430 00 (R)
 - 944 Turbo < 1986
-  - Disc: 951.352.041.01
-  - Caliper: 
-- 944/944S 1987-1989
-  - Disc: 944.352.041.03
-  - Caliper: 
-- 944 S2/Turbo > 1987 rear
-  - Disc: 951.352.041.02
-  - Caliper: 
-- 944 S2/Turbo front
-  - Disc: 
-  - Caliper: 36/40
+  - Disc:
+    - Part number: 951 352 041 01
+    - Type: vented
+    - Dimensions: 299x24mm
+    - Height: 71mm
+    - Weight: 6,7 kg
+  - Caliper:
+    - Type: Fixed
+    - Piston(s): 28/30
+    - Part numbers:
+      - < 95KN1 00218: 951 352 421 00 (L), 951 352 421 02 (R)
+      - &gt; 95KN1 00219: 951 352 421 02 (L), 951 352 422 02 (R)
+- 944/944S 1987-1989 (aluminium trailing arms)
+  - Disc:
+    - Type: vented
+    - Dimensions: 289x20mm
+    - Height: 100mm
+    - Weight: 6,4 kg
+    - Part number: 944 352 041 03
+  - Caliper:
+    - Type: single piston floating caliper
+    - Piston(s): 38mm
+    - Part numbers: 944 352 429 00 (L), 944 352 430 00 (R)
+- 944 S2/Turbo > 1987 (aluminium trailing arms)
+  - Disc:
+    - Type: vented
+    - Dimensions: 299x24mm
+    - Height: 100mm
+    - Weight: 7,1 kg
+    - Part number: 951 352 041 0
+  - Caliper:
+    - Type: Fixed
+    - Piston(s): 28/30
+    - Part numbers:
+      - < 95KN1 00218: 951 352 421 00 (L), 951 352 421 02 (R)
+      - &lt; 95KN1 00219: 951 352 421 02 (L), 951 352 422 02 (R)
 - Kerscher 5x130:
   - Disc: 262x9mm solid
 - Kerscher 5x130
@@ -38,7 +73,7 @@ layout: page
   - Caliper: 986.352.423 / 986.352.424 - 30/28, monobloc
 - Boxster S front
   - Disc: 318x28
-  - Caliper: 
+  - Caliper:
 - Boxster S rear
   - Disc: 299x24
   - Caliper: 996.352.421 / 996.352.422 - ??/??, monobloc
