@@ -56,18 +56,33 @@ layout: page
       - < 95KN1 00218: 951 352 421 00 (L), 951 352 421 02 (R)
       - &lt; 95KN1 00219: 951 352 421 02 (L), 951 352 422 02 (R)
 - Kerscher 5x130:
-  - Disc: 262x9mm solid
+  - Disc:
+    - Type: solid
+    - Dimensions: 262x9mm
 - Kerscher 5x130
-  - Disc: 278x20mm vented
+  - Disc:
+    - Type: vented
+    - Dimensions: 278x20mm
 - 964 rear, 993 C4 94-95, 964 RSA
   - Disc:
-  - Caliper: 30/28
+  - Caliper:
+    - Piston(s): 30/28
 - 993 C2, C2S, 94-95, 964 RS 92-93
   - Disc:
-  - Caliper: 34/40
+  - Caliper:
+    - Piston(s): 34/40
 - Boxster rear
-  - Disc: 298x20
-  - Caliper: 986.352.423 / 986.352.424 - 30/28, monobloc
+  - Disc:
+    - Type: vented
+    - Dimensions: 298x20mm
+  - Caliper:
+    - Type: Fixed, monobloc
+    - Piston(s): 30/28
+    - Part numbers: 986 352 423 (L), 986 352 424 (R)
 - Boxster S rear
-  - Disc: 299x24
-  - Caliper: 996.352.421 / 996.352.422 - ??/??, monobloc
+  - Disc:
+    - Type: vented
+    - Dimensions: 299x24mm
+  - Caliper:
+    - Type: Fixed, monobloc
+    - Part numbers: 996 352 421 (L), 996 352 422 (R)
