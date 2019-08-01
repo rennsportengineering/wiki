@@ -4,85 +4,22 @@ layout: page
 ---
 
 # Rear brakes
+## Calipers
 
-- 944 < 1986 (steel trailing arms)
-  - Disc:
-    - Type: vented
-    - Dimensions: 289x20mm
-    - Height: 71mm
-    - Weight: 5,7 kg
-    - Part number: 944 352 041 02
-  - Caliper:
-    - Type: single piston floating caliper
-    - Piston(s): 38mm
-    - Part numbers:
-      - < 1984: 477 615 109 (L), 477 615 110 (R)
-      - &gt;= 1984: 944 351 429 00 (L), 944 351 430 00 (R)
-- 944 Turbo < 1986
-  - Disc:
-    - Part number: 951 352 041 01
-    - Type: vented
-    - Dimensions: 299x24mm
-    - Height: 71mm
-    - Weight: 6,7 kg
-  - Caliper:
-    - Type: Fixed
-    - Piston(s): 28/30
-    - Part numbers:
-      - < 95KN1 00218: 951 352 421 00 (L), 951 352 421 02 (R)
-      - &gt; 95KN1 00219: 951 352 421 02 (L), 951 352 422 02 (R)
-- 944/944S 1987-1989 (aluminium trailing arms)
-  - Disc:
-    - Type: vented
-    - Dimensions: 289x20mm
-    - Height: 100mm
-    - Weight: 6,4 kg
-    - Part number: 944 352 041 03
-  - Caliper:
-    - Type: single piston floating caliper
-    - Piston(s): 38mm
-    - Part numbers: 944 352 429 00 (L), 944 352 430 00 (R)
-- 944 S2/Turbo > 1987 (aluminium trailing arms)
-  - Disc:
-    - Type: vented
-    - Dimensions: 299x24mm
-    - Height: 100mm
-    - Weight: 7,1 kg
-    - Part number: 951 352 041 0
-  - Caliper:
-    - Type: Fixed
-    - Piston(s): 28/30
-    - Part numbers:
-      - < 95KN1 00218: 951 352 421 00 (L), 951 352 421 02 (R)
-      - &lt; 95KN1 00219: 951 352 421 02 (L), 951 352 422 02 (R)
-- Kerscher 5x130:
-  - Disc:
-    - Type: solid
-    - Dimensions: 262x9mm
-- Kerscher 5x130
-  - Disc:
-    - Type: vented
-    - Dimensions: 278x20mm
-- 964 rear, 993 C4 94-95, 964 RSA
-  - Disc:
-  - Caliper:
-    - Piston(s): 30/28
-- 993 C2, C2S, 94-95, 964 RS 92-93
-  - Disc:
-  - Caliper:
-    - Piston(s): 34/40
-- Boxster rear
-  - Disc:
-    - Type: vented
-    - Dimensions: 298x20mm
-  - Caliper:
-    - Type: Fixed, monobloc
-    - Piston(s): 30/28
-    - Part numbers: 986 352 423 (L), 986 352 424 (R)
-- Boxster S rear
-  - Disc:
-    - Type: vented
-    - Dimensions: 299x24mm
-  - Caliper:
-    - Type: Fixed, monobloc
-    - Part numbers: 996 352 421 (L), 996 352 422 (R)
+| Brand   | Part numbers                                          | Type     | Pistons | Piston diameter(s) | Description                                              |
+|---------|-------------------------------------------------------|----------|---------|--------------------|----------------------------------------------------------|
+| Porsche | 944 352 429 00 (L), 944 352 430 00 (R)                | floating | 1       | 38                 | 944/944S                                                 |
+| Porsche | 951 352 421 00 (L), 951 352 422 00 (R)                | fixed    | 4       | 28/30              | 944 Turbo < 95KN1 00218 (aluminium trailing arms)        |
+| Porsche | 951 352 421 02 (L), 951 352 421 02 (R)                | fixed    | 4       | 28/30              | 944 S2/Turbo > 95KN1 00218 (aluminium trailing arms)     |
+
+
+## Discs
+
+| Brand    | Part number                                        | Type   | Diameter | Thickness | Height | Weight | Description                                                 |
+|----------|----------------------------------------------------|--------|----------|-----------|--------|--------|-------------------------------------------------------------|
+| Porsche  | 944 352 041 02                                     | vented | 289      | 20        | 71     | 5,7    | 944 <= 1986 (steel trailing arms)                           |
+| Porsche  | 951 352 041 01                                     | vented | 299      | 24        | 71     | 6,7    | 944 Turbo <= 1986                                           |
+| Porsche  | 944 352 041 03                                     | vented | 289      | 20        | 100    | 6,4    | 944/944S >= 1987 (aluminium trailing arms, wider track)     |
+| Porsche  | 951 352 041 02                                     | vented | 299      | 24        | 100    | 7,1    | 944 S2/Turbo >= 1987 (aluminium trailing arms, wider track) |
+| Kerscher | BS9025/1HA                                         | solid  | 262      | 9         |        |        | rear 5x130                                                  |
+| Kerscher | BS9025001HA                                        | solid  | 262      | 9         |        |        | rear 5x130, drilled and slotted                             |
