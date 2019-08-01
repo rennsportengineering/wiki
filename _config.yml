@@ -1,9 +1,6 @@
 title: RennSport Engineering wiki
 baseurl: /wiki
 
-layouts_dir:  _picnic/_layouts
-includes_dir: _picnic/_includes
-
 # GitHub Pages
 # None of these can actually be changed
 safe: true

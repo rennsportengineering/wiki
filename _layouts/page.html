@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="toc-wrapper">
+  {% include tpl/search.html %}
+
+  <h3>Documentation</h3>
+  <div class="toc nav">
+    {% include tpl/nav.html context="/" %}
+  </div>
+</div>
+
+<div class="page-wrapper">
+  <div class="content float-view markdown-body js-markdown-body">
+    {{ content }}
+  </div>
+</div>

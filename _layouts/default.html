@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>
+      {% if page.url == "/" %}
+        {{ site.title }} &middot; {{ site.tagline }}
+      {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+      {% endif %}
+    </title>
+
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  </head>
+  <body>
+    {{ content }}
+
+    <script src="{{ site.baseurl }}/scripts.js" data-no-instant></script>
+    <script data-no-instant>
+      InstantClick.on('change', init);
+      InstantClick.init();
+    </script>
+  </body>
+</html>
