@@ -117,35 +117,6 @@
 }
 
 /**
- * ## Tables
- *
- * No styleguide reference.
- */
-
-.markdown-body table {
-  width: 100%;
-  overflow: auto;
-}
-
-.markdown-body table, th, td {
-  border: 1px solid black;
-}
-
-.markdown-body table td {
-  padding: .75rem;
-}
-
-.markdown-body table th {
-  padding: .35rem .75rem;
-}
-
-.markdown-body table th,
-.markdown-body table td {
-  text-align: left;
-  vertical-align: top;
-}
-
-/**
  * ## Images
  *
  * No styleguide reference.
