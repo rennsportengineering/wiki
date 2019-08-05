@@ -1,0 +1,23 @@
+<table id="table-{{ include.group }}-{{ include.name }}" class="sort">
+  <thead>
+    <tr>
+    {% for attribute in site.data.[include.group].[include.name][0] %}
+      <th>{{ attribute[0] }}</th>
+    {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+  {% for row in site.data.[include.group].[include.name] %}
+    <tr>
+    {% for attribute in row %}
+      <td>{{ attribute[1] }}</td>
+    {% endfor %}
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<script src='{{ site.baseurl }}/assets/js/tablesort.min.js'></script>
+<script>
+  new Tablesort(document.getElementById('table-{{ include.group }}-{{ include.name }}'));
+</script>
