@@ -7,9 +7,6 @@ The generated tables are displayed and made sortable using [tablesort](http://tr
 
 ## How to run locally
 ```
-# Get the picnic submodules
-git submodule update --init
-
 # Run the jekyll/jekyll:pages container to build and serve the site
 docker run --rm -ti -v $PWD:$PWD -w $PWD -p 4000:4000 jekyll/jekyll:pages jekyll serve
 ```
