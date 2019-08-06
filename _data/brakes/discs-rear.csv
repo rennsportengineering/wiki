@@ -1,7 +1,9 @@
 Brand,"Part number",Type,Diameter,Thickness,Height,Weight,Description
-Porsche,94435204102,vented,289,20,71,"5,7","944 <= 1986 (steel trailing arms)"
-Porsche,95135204101,vented,299,24,71,"6,7","944Turbo <= 1986"
-Porsche,94435204103,vented,289,20,100,"6,4","944/944S >= 1987 (aluminium trailing arms, wider track)"
-Porsche,95135204102,vented,299,24,100,"7,1","944S2/Turbo >= 1987 (aluminium trailing arms, wider track)"
+Porsche,944 352 041 02,vented,289,20,71,"5,7",944 <= 1986 (steel trailing arms)
+Porsche,951 352 041 01,vented,299,24,71,"6,7",944Turbo <= 1986
+Porsche,944 352 041 03,vented,289,20,100,"6,4","944/944S >= 1987 (aluminium trailing arms, wider track)"
+Porsche,951 352 041 02,vented,299,24,100,"7,1","944S2/Turbo >= 1987 (aluminium trailing arms, wider track)"
+Porsche,986 352 401 04,vented,292,20,67,"5,8",986 Boxster
+Porsche,986 352 403 01,vented,299,24,67,"6,3",986 Boxster S
 Kerscher,BS9025/1HA,solid,262,9,,,"rear 5x130"
 Kerscher,BS9025001HA,solid,262,9,,,"rear 5x130 drilled and slotted"
