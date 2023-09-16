@@ -1,9 +1,15 @@
 Brand,"Part number",Type,Diameter,Thickness,Height,Weight,Description
-Porsche,944 352 041 02,vented,289,20,71,"5,7",944 <= 1986 (steel trailing arms)
-Porsche,951 352 041 01,vented,299,24,71,"6,7",944Turbo <= 1986
-Porsche,944 352 041 03,vented,289,20,100,"6,4","944/944S >= 1987 (aluminium trailing arms, wider track)"
-Porsche,951 352 041 02,vented,299,24,100,"7,1","944S2/Turbo >= 1987 (aluminium trailing arms, wider track)"
-Porsche,986 352 401 04,vented,292,20,67,"5,8",986 Boxster
-Porsche,986 352 403 01,vented,299,24,67,"6,3",986 Boxster S
+Porsche,944 352 041 02,vented,289,20,71,5.6,944 <= 1986 (steel trailing arms)
+Porsche,951 352 041 01,vented,299,24,71,6.7,944Turbo <= 1986
+Porsche,944 352 041 03,vented,289,20,100,6.1,"944/944S >= 1987 (aluminium trailing arms, wider track)"
+Porsche,951 352 041 02,vented,299,24,100,7.1,"944S2/Turbo >= 1987 (aluminium trailing arms, wider track)"
+Porsche,986 352 401 04,vented,292,20,67,5.8,986 Boxster
+Porsche,986 352 403 01,vented,299,24,67,6.3,986 Boxster S
+Porsche,901 352 401 10,solid,285,10.5,70,4.6,911 <=1968
+Porsche,901 352 041 15,vented,286,20,74,,911 <=1968
+Porsche,901 352 401 17,solid,,,,,911 1969
+Porsche,901 352 041 14,vented,290,20,83,6.00,911 1969-1983
+Porsche,"L: 930 352 045 00, R: 930 352 046 00",vented,309,28,83,7.8,911 3.3 Turbo 1978-1989
+Porsche,911 352 041 08,vented,290,24,83,6.5,911 1984-1989
 Kerscher,BS9025/1HA,solid,262,9,,,"rear 5x130"
 Kerscher,BS9025001HA,solid,262,9,,,"rear 5x130 drilled and slotted"
