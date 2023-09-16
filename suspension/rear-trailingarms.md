@@ -1,6 +1,7 @@
 ---
 title: Rear trailing arms
 layout: page
+parent: Suspension
 ---
 
 # Rear trailing arms
@@ -10,8 +11,8 @@ layout: page
   - L: 944.331.021.00
   - R: 944.331.022.00
 - 944 type 2 (>= 1986-1989): Alu with bumpstop, no ABS hole, ?? kg
-  - L: 951.331.021.01: Actual numbers on arm 951.331.513.00 $ 0056-1 86 951.331.513.0R: 
-  - R: 951.331.022.01: Actual numbers on arm 951.331.514.00 $ 0056-1 86 951.331.514.0R: 
+  - L: 951.331.021.01: Actual numbers on arm 951.331.513.00 $ 0056-1 86 951.331.513.0R:
+  - R: 951.331.022.01: Actual numbers on arm 951.331.514.00 $ 0056-1 86 951.331.514.0R:
 - 944 type 2 (1987-1989) M030: Alu, ?? kg. Difference?
   - L: 951.331.021.31
   - R: 951.331.022.31

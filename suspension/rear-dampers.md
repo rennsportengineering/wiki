@@ -1,6 +1,7 @@
 ---
 title: Rear dampers
 layout: page
+parent: Suspension
 ---
 
 # Rear dampers

@@ -1,16 +1,5 @@
 title: RennSport Engineering wiki
 baseurl: /wiki
 
-# GitHub Pages
-# None of these can actually be changed
-safe: true
-lsi: false
-highlighter: rouge
-
-# Formatting
-markdown: kramdown
-kramdown:
-  input: GFM
-
-# Permalinks
-permalink: pretty
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
