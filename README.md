@@ -1,6 +1,6 @@
 # VW 1303 and Porsche 924, 944, 928 and 968 parts compatibility wiki
 
-This wiki uses the [picnic](https://github.com/kasperisager/picnic) theme for Jekyll.
+This wiki uses the [Just the Docs](https://just-the-docs.com) theme for Jekyll.
 
 Tables are generated from CSV [data files](https://jekyllrb.com/docs/datafiles/) which can be found in the `./_data` directory.
 The generated tables are displayed and made sortable using [tablesort](http://tristen.ca/tablesort/demo/).

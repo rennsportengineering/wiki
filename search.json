@@ -1,8 +1,0 @@
----
----
-{% assign sorted_pages = site.pages | sort: "path" %}
-{
-  "pages": [
-  {% for page in sorted_pages %}{% unless page.url contains "/_" %}{% include search.json entry = page %}{% unless forloop.last %},{% endunless %}{% endunless %}{% endfor %}
-  ]
-}

@@ -1,11 +1,12 @@
 ---
 title: Front brakes
-layout: page
+layout: default
+parent: Brakes
 ---
 
 # Front brakes
 ## Calipers
-{% include datatable.html group='brakes' name='calipers-front' %}
+{% include tablesort.html group='brakes' name='calipers-front' %}
 
 ## Discs
-{% include datatable.html group='brakes' name='discs-front' %}
+{% include tablesort.html group='brakes' name='discs-front' %}

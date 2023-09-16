@@ -1,6 +1,7 @@
 ---
 title: Rear torsionbars
 layout: page
+parent: Suspension
 ---
 
 # Rear torsionbars

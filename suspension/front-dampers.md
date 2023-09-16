@@ -1,6 +1,7 @@
 ---
 title: Front dampers (struts)
 layout: page
+parent: Suspension
 ---
 
 # Front dampers (struts)
